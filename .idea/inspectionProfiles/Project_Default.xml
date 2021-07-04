@@ -1,13 +1,27 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
-    <inspection_tool class="SpringElInspection" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="AbstractBeanReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ContextComponentScanInconsistencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="InjectionValueTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="RequiredBeanTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringBeanConstructorArgInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringBeanDepedencyCheckInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringBeanInstantiationInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringBeanLookupMethodInspection" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="SpringElStaticFieldInjectionInspection" enabled="true" level="TYPO" enabled_by_default="true" />
-    <inspection_tool class="SpringFacetCodeInspection" enabled="true" level="TYPO" enabled_by_default="true" />
-    <inspection_tool class="SpringFacetInspection" enabled="true" level="TYPO" enabled_by_default="true">
+    <inspection_tool class="SpringFacetInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="checkTestFiles" value="true" />
     </inspection_tool>
-    <inspection_tool class="SpringFacetProgrammaticInspection" enabled="true" level="TYPO" enabled_by_default="true" />
-    <inspection_tool class="SpringHandlersSchemasHighlighting" enabled="true" level="TYPO" enabled_by_default="true" />
+    <inspection_tool class="SpringFacetProgrammaticInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringFactoryMethodInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringHandlersSchemasHighlighting" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringIncorrectResourceTypeInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringInjectionValueConsistencyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringRequiredPropertyInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringScopesInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringXmlAutowiringInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SpringXmlModelInspection" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UtilSchemaInspection" enabled="true" level="WARNING" enabled_by_default="true" />
   </profile>
 </component>
